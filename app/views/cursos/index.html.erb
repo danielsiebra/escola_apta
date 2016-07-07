@@ -18,8 +18,8 @@
         <td><%= curso.nome %></td>
         <td><%= curso.carga_horaria %></td>
         <td><%= curso.descricao %></td>
-        <td><%= link_to 'Show', curso %></td>
-        <td><%= link_to 'Edit', edit_curso_path(curso) %></td>
+        <td><%= link_to 'Visualizar', curso %></td>
+        <td><%= link_to 'Editar', edit_curso_path(curso) %></td>
         <td><%= link_to 'Destroy', curso, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
